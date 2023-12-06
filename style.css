@@ -1,0 +1,224 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+a{
+    text-decoration:none;
+}
+
+
+
+/* ---------------------------------------------
+------------------Top-navber-start-------------------
+------------------------------------------------> */
+.top-navber{
+    height: 45px;
+    background-color:#f05a66;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-navber a{
+    font-size: 0.80rem;
+    color: white;
+    margin-left: 15px;
+}
+.top-navber a:hover{
+    color: rgb(189, 190, 190);
+}
+.top-navber-left{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+}
+.top-navber-right{
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+
+
+
+
+/* ---------------------------------------------
+------------------navber-start-------------------
+------------------------------------------------> */
+.navber{
+    height:100px;
+    width: 1300px;
+    margin: 0px 60px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navber-logo {
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 264px;
+    margin-right: 15px;
+}
+.navber-items{
+    margin-right: 50px;
+}
+
+.navber-items a{
+      padding: 10px 10px;
+      font-size: 0.86rem;
+      color: black;
+}
+.navber-items a:hover,.navber-account a:hover{
+    color: #f05a66;
+}
+.navber-items  a select{
+    border: none;
+    background-color: none;
+}
+.navber-account a{
+    padding: 15px 10px;
+    font-size: 0.95rem;
+    color: black;
+}
+
+
+
+
+
+/* ---------------------------------------------
+-------------------Slideshow start-------------------
+------------------------------------------------> */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1250px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #f05a66;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+/* ---------------------------------------------
+------------------categories-start-------------------
+------------------------------------------------> */
+.categories{
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin:10px 0px 80px 15px ;
+  /* margin-top: 35px;
+  margin-bottom: 500px; */
+}
+.categories a button:hover{
+  background-color: #f05a66;
+  color: white;
+  border: none;
+  transition-duration: 0.5s;
+}
+.categories-man{
+background-image: url("Images/Man.png");
+background-size: cover;
+height:250px;
+width:370px;
+}
+
+.categories-female{
+  background-image: url("Images/Female.webp");
+  background-size: cover;
+  height:250px;
+  width:370px;
+}
+.categories-accessories{
+  background-image: url("Images/Accessories.jpg");
+  background-size: cover;
+  height:250px;
+  width:370px;
+}
+.button-man{
+  height: 40px;
+  width: 70px;
+  font-size: 1rem;
+  margin:160px 0px 0px 40% ;
+}
+
+.button-female{
+  height: 40px;
+  width: 100px;
+  font-size: 1rem;
+  margin:160px 0px 0px 40% ;
+}
+.button-accessories{
+  height: 40px;
+  width: 140px;
+  font-size: 1rem;
+  margin:160px 0px 0px 40% ;
+}
+
+
+/* ---------------------------------------------
+------------------COLLECTIONS-start-------------------
+------------------------------------------------> */
+.collection-text{
+
+   text-align: center;
+}
